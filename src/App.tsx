@@ -11,7 +11,7 @@ import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { User } from "./models/user";
 
-import { add, format, formatDistanceToNow } from "date-fns";
+import { format, formatDistanceToNow } from "date-fns";
 import { ko } from "date-fns/locale";
 
 import * as yup from "yup";
