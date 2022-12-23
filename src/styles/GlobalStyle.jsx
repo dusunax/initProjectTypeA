@@ -1,8 +1,10 @@
 import { createGlobalStyle, css } from "styled-components";
-import reset from "./customReset.css";
+import reset from "./customReset.css?inline";
+import boilerStyle from "./boilerStyle.css?inline";
 
 const GlobalStyle = createGlobalStyle`
   ${reset};
+  ${boilerStyle}
 
   ${({ theme }) => {
     return css`

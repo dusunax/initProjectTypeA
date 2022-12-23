@@ -1,4 +1,17 @@
-const colors = {
+export interface Colors {
+  primary: {
+    base: string;
+    active: string;
+    hover: string;
+    focus: string;
+    disabled: string;
+    error: string;
+    warning: string;
+    success: string;
+    info: string;
+  };
+}
+const colors: Colors = {
   primary: {
     base: "#222",
     active: "#204fdc",

@@ -9,6 +9,15 @@ export const userState = atom({
   key: "user",
   default: {
     email: "",
+    nickname: "",
+  },
+});
+
+export const userSubmitState = atom({
+  key: "userSubmit",
+  default: {
+    email: "",
+    password: "",
   },
 });
 
