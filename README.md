@@ -19,7 +19,7 @@ Vite, React, TS, recoil, Reace-hook-form, Styled-component, date-fns, react-helm
 | Form | React-Hook-Form + yup | 적합성 | o | x |  |
 | CSS | Styled-component (theme) | 트렌드 vs 러닝커브 | o | x | Tailwind |
 | 언어 | Typescript | 프로젝트를 진행할 역량 | o | o |  |
-| 날짜 | date-fns | 최적화가 잘된 lib 사용 | o | x | date-fns |
+| 날짜 | date-fns | 최적화가 잘된 lib 사용 | o | x |  |
 | SEO | react-helmet-async | 서버사이드 랜더링 미숙 | o | x | Next |
 
 
