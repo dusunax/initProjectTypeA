@@ -1,14 +1,15 @@
-import React from "react";
-import { Main } from "components/main";
-import { NextPageWithLayout } from "../../../../moyeo-frontend/src/pages/_app";
-import MainLayout from "layouts/MainLayout";
+import Main from "../components/main/Main";
+import { DefaultLayout } from "../layouts/DefaultLayout";
+import { HelmetComponent } from "../seo/helmet";
+import { siteInfo } from "../seo/siteInfo";
 
-const Index: NextPageWithLayout = () => {
-  return <Main />;
-};
-
-Index.getLayout = (page) => {
-  return <MainLayout>{page}</MainLayout>;
+const Index = () => {
+  return (
+    <DefaultLayout>
+      <Main />
+      <HelmetComponent siteInfo={siteInfo.login} />
+    </DefaultLayout>
+  );
 };
 
 export default Index;
