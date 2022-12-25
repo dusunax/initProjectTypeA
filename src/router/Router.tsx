@@ -1,13 +1,15 @@
 import { lazy, Suspense } from "react";
-import { fromNow } from "../utils/dateFormatHandle";
+import { Route, Routes } from "react-router-dom";
 
 const LoginPage = lazy(() => import("../pages/login/Index"));
 
 function Router() {
   return (
     <Suspense fallback={<div>Loading...</div>}>
-      <h2>{fromNow}</h2>
-      <LoginPage />
+      <Routes>
+        <Route path="/" element={<LoginPage />} />
+        <Route path="/login" element={<LoginPage />} />
+      </Routes>
     </Suspense>
   );
 }
