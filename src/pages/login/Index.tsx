@@ -1,4 +1,5 @@
-import LoginForm from "../../components/Login/LoginForm";
+import LoginForm from "../../components/login/LoginForm";
+import { DefaultLayout } from "../../layouts/DefaultLayout";
 import { HelmetComponent } from "../../seo/helmet";
 
 function LoginPage() {
@@ -10,10 +11,10 @@ function LoginPage() {
   };
 
   return (
-    <div>
+    <DefaultLayout>
       <LoginForm />
       <HelmetComponent siteInfo={siteInfo} />
-    </div>
+    </DefaultLayout>
   );
 }
 

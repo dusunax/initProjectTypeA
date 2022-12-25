@@ -1,4 +1,3 @@
-import { DefaultLayout } from "./layouts/DefaultLayout";
 import Router from "./router/Router";
 
 import { ThemeProvider } from "styled-components";
@@ -7,16 +6,12 @@ import GlobalStyle from "./styles/GlobalStyle";
 
 function App() {
   return (
-    <>
-      <ThemeProvider theme={theme.defaultTheme}>
+    <ThemeProvider theme={theme.defaultTheme}>
+      <div className="app">
         <GlobalStyle />
-        <div className="app">
-          <DefaultLayout>
-            <Router />
-          </DefaultLayout>
-        </div>
-      </ThemeProvider>
-    </>
+        <Router />
+      </div>
+    </ThemeProvider>
   );
 }
 
