@@ -17,21 +17,27 @@ export const DefaultLayout = ({ children }: DefaultLayoutProps) => {
 
 const DefaultLayoutContainer = styled("div")`
   width: 100%;
+  max-width: ${({ theme }) => `${theme.breakpoints.md - 1}px`};
+  padding: 0 24px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   box-sizing: border-box;
+
+  @media (max-width: ${({ theme }) => `${theme.breakpoints.xl - 1}px`}) {
+    padding: 0 2rem;
+  }
+
+  @media (max-width: ${({ theme }) => `${theme.breakpoints.md - 1}px`}) {
+    padding: 0 1rem;
+  }
 `;
 
 const DefaultLayoutContent = styled("main")`
   width: 100%;
   box-sizing: border-box;
 `;
-// width: ${({ theme }) => `${theme.breakpoints.xl - 16 * 2}px`};
-// margin: 0 auto;
-
-// @media (max-width: ${({ theme }) => `${theme.breakpoints.xl - 1}px`}) {
-//   width: ${({ theme }) => `${theme.breakpoints.md - 16 * 2}px`};
-// }
-
-// @media (max-width: ${({ theme }) => `${theme.breakpoints.md - 1}px`}) {
-//   width: auto;
-//   margin: 0 16px;
-// }

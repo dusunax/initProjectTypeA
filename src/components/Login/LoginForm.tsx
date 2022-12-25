@@ -1,57 +1,38 @@
+import { max } from "date-fns";
 import styled from "styled-components";
 
 import useRegisterRHF from "../../hooks/useUserRegisterForm";
 import useUserStateHandle from "../../hooks/useUserStateHandle";
+import { fieldInfos } from "../../utils/form/loginFieldInfos";
+import InputWrap from "../molecules/inputBox/InputBox";
 
 function LoginForm() {
   const RegisterRHF = useRegisterRHF().RegisterRHF;
-  const { register, handleSubmit, errors } = RegisterRHF();
+  const { handleSubmit, errors } = RegisterRHF();
 
   const userStateHandle = useUserStateHandle().userStateHandle;
   const { submitUser } = userStateHandle();
 
+  const LoginSubmitHandler = (data: any) => {
+    submitUser(data);
+  };
+
   return (
-    <form onSubmit={handleSubmit((data: any) => submitUser(data))}>
-      <InputBox>
-        <Input {...register("email", { required: true })} />
-        {errors.email && <p>이메일을 입력하소</p>}
-      </InputBox>
-      <InputBox>
-        <Input {...register("age", { pattern: /\d+/ })} />
-        {errors.age && <p>숫자를 입력하소</p>}
-      </InputBox>
-      <InputBox>
-        <Input
-          {...register("password", {
-            minLength: 2,
-            maxLength: 20,
-          })}
-        />
-        {errors.password && <p>패스워드 확인 필요</p>}
-      </InputBox>
+    <Form onSubmit={handleSubmit((data) => LoginSubmitHandler(data))}>
+      {fieldInfos.map((fieldInfo) => (
+        <InputWrap key={"input" + fieldInfo.name} fieldInfo={fieldInfo} />
+      ))}
       <button type="submit">클릭!</button>
-    </form>
+    </Form>
   );
 }
 
 export default LoginForm;
 
-const InputBox = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+const Form = styled.form`
   width: 100%;
 
-  & > label {
-    margin-bottom: 10px;
-    background-color: #eee;
-  }
-`;
-
-const Input = styled.input`
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;

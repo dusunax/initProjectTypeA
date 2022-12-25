@@ -1,7 +1,7 @@
 import { useRecoilState } from "recoil";
 
 import { userState } from "../recoil/user.js";
-import { userSchema } from "../utils/vaildateUser.js";
+import { userSchema } from "../utils/form/vaildateUser.js";
 
 type User = {
   email: string;
