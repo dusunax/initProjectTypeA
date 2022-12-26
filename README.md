@@ -2,8 +2,9 @@
 
 ### 프로젝트 보일러플레이트 - 타입A
 
-- 제작 & 사용 일자 : 2022년 12월
+- 제작 & 사용 일자 : 2022년 12월 22일~
 - 추가 고려할 사항 : [SEO] sitemap xml
+- 제외한 내용 : design/ 폴더 내 스타일가이드
 
 ### 사용 기술
 ```
@@ -21,8 +22,11 @@ Vite, React, TS, recoil, Reace-hook-form, Styled-component, date-fns, react-helm
 | 언어 | Typescript | 프로젝트를 진행할 역량 | o | o |  |
 | 날짜 | date-fns | 최적화가 잘된 lib 사용 | o | x |  |
 | SEO | react-helmet-async | 서버사이드 랜더링 미숙 | o | x | Next |
+| 통신 | axios | axios interceptor 사용 | - | x |  |
+|  | axios | axios interceptor 사용 | - | x |  |
 
 
 ### 작업 내역
-- 221222: 프로젝트 설정
+- 221222: 프로젝트 설정 시작
 - 221225: [변경] react-helmet > react-helmet-async
+- 221226: [추가] 디자인 스타일 가이드 적용 / theme 추가 정리 / font (unicode-range)
