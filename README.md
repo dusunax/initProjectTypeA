@@ -23,7 +23,6 @@ Vite, React, TS, recoil, Reace-hook-form, Styled-component, date-fns, react-helm
 | 날짜 | date-fns | 최적화가 잘된 lib 사용 | o | x |  |
 | SEO | react-helmet-async | 서버사이드 랜더링 미숙 | o | x | Next |
 | 통신 | axios | axios interceptor 사용 | - | x |  |
-|  | axios | axios interceptor 사용 | - | x |  |
 
 
 ### 작업 내역
