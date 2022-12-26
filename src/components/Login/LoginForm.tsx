@@ -1,10 +1,12 @@
-import { max } from "date-fns";
 import styled from "styled-components";
+import { userRegister } from "../../api/register";
 
 import useRegisterRHF from "../../hooks/useUserRegisterForm";
 import useUserStateHandle from "../../hooks/useUserStateHandle";
 import { fieldInfos } from "../../utils/form/loginFieldInfos";
+
 import InputWrap from "../molecules/inputBox/InputBox";
+import Button from "../atoms/buttons/Button";
 
 function LoginForm() {
   const RegisterRHF = useRegisterRHF().RegisterRHF;
@@ -13,8 +15,9 @@ function LoginForm() {
   const userStateHandle = useUserStateHandle().userStateHandle;
   const { submitUser } = userStateHandle();
 
-  const LoginSubmitHandler = (data: any) => {
+  const LoginSubmitHandler = async (data: any) => {
     submitUser(data);
+    console.log(await userRegister(data));
   };
 
   return (
@@ -22,7 +25,7 @@ function LoginForm() {
       {fieldInfos.map((fieldInfo) => (
         <InputWrap key={"input" + fieldInfo.name} fieldInfo={fieldInfo} />
       ))}
-      <button type="submit">클릭!</button>
+      <Button>버튼</Button>
     </Form>
   );
 }

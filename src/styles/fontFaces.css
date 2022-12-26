@@ -1,0 +1,361 @@
+/* ********************************* */
+/* 폰트명 : Sevillana | 적용범위 : 숫자   */
+/* (숫자에 적용)완전 튀는 테스트용 폰트입니다. */
+/* ********************************* */
+
+/* sevillana-regular - latin */
+@font-face {
+  font-family: "Sevillana";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/sevillana-v21-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../assets/fonts/sevillana-v21-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../assets/fonts/sevillana-v21-latin-regular.ttf")
+      format("truetype");
+
+  unicode-range: U+0030-0039;
+}
+
+/* **************************** */
+/* 폰트명 : roboto | 적용범위 : 숫자 */
+/* **************************** */
+
+/* roboto-100 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../assets/fonts/roboto/roboto-v30-latin-100.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../assets/fonts/roboto/roboto-v30-latin-100.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../assets/fonts/roboto/roboto-v30-latin-100.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../assets/fonts/roboto/roboto-v30-latin-100.woff") format("woff"),
+    /* Modern Browsers */ url("../assets/fonts/roboto/roboto-v30-latin-100.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../assets/fonts/roboto/roboto-v30-latin-100.svg#Roboto")
+      format("svg"); /* Legacy iOS */
+
+  unicode-range: U+0030-0039;
+}
+/* roboto-300 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../assets/fonts/roboto/roboto-v30-latin-300.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../assets/fonts/roboto/roboto-v30-latin-300.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../assets/fonts/roboto/roboto-v30-latin-300.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../assets/fonts/roboto/roboto-v30-latin-300.woff") format("woff"),
+    /* Modern Browsers */ url("../assets/fonts/roboto/roboto-v30-latin-300.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../assets/fonts/roboto/roboto-v30-latin-300.svg#Roboto")
+      format("svg"); /* Legacy iOS */
+
+  unicode-range: U+0030-0039;
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/roboto/roboto-v30-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../assets/fonts/roboto/roboto-v30-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../assets/fonts/roboto/roboto-v30-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../assets/fonts/roboto/roboto-v30-latin-regular.woff") format("woff"),
+    /* Modern Browsers */
+      url("../assets/fonts/roboto/roboto-v30-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../assets/fonts/roboto/roboto-v30-latin-regular.svg#Roboto")
+      format("svg"); /* Legacy iOS */
+
+  unicode-range: U+0030-0039;
+}
+/* roboto-500 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../assets/fonts/roboto/roboto-v30-latin-500.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../assets/fonts/roboto/roboto-v30-latin-500.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../assets/fonts/roboto/roboto-v30-latin-500.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../assets/fonts/roboto/roboto-v30-latin-500.woff") format("woff"),
+    /* Modern Browsers */ url("../assets/fonts/roboto/roboto-v30-latin-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../assets/fonts/roboto/roboto-v30-latin-500.svg#Roboto")
+      format("svg"); /* Legacy iOS */
+
+  unicode-range: U+0030-0039;
+}
+/* roboto-700 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/roboto/roboto-v30-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../assets/fonts/roboto/roboto-v30-latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../assets/fonts/roboto/roboto-v30-latin-700.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../assets/fonts/roboto/roboto-v30-latin-700.woff") format("woff"),
+    /* Modern Browsers */ url("../assets/fonts/roboto/roboto-v30-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../assets/fonts/roboto/roboto-v30-latin-700.svg#Roboto")
+      format("svg"); /* Legacy iOS */
+
+  unicode-range: U+0030-0039;
+}
+/* roboto-900 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../assets/fonts/roboto/roboto-v30-latin-900.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../assets/fonts/roboto/roboto-v30-latin-900.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../assets/fonts/roboto/roboto-v30-latin-900.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../assets/fonts/roboto/roboto-v30-latin-900.woff") format("woff"),
+    /* Modern Browsers */ url("../assets/fonts/roboto/roboto-v30-latin-900.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../assets/fonts/roboto/roboto-v30-latin-900.svg#Roboto")
+      format("svg"); /* Legacy iOS */
+
+  unicode-range: U+0030-0039;
+}
+
+/* ********************************************* */
+/* 폰트명 : Gothic-A1 | 적용범위 : 숫자를 제외한 모든 범위 */
+/* ********************************************* */
+
+/* gothic-a1-100 - latin_korean */
+@font-face {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-100.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-100.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-100.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-100.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-100.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-100.svg#GothicA1")
+      format("svg"); /* Legacy iOS */
+}
+
+/* gothic-a1-200 - latin_korean */
+@font-face {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-200.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-200.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-200.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-200.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-200.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-200.svg#GothicA1")
+      format("svg"); /* Legacy iOS */
+}
+
+/* gothic-a1-300 - latin_korean */
+@font-face {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-300.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-300.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-300.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-300.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-300.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-300.svg#GothicA1")
+      format("svg"); /* Legacy iOS */
+}
+
+/* gothic-a1-regular - latin_korean */
+@font-face {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-regular.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-regular.svg#GothicA1")
+      format("svg"); /* Legacy iOS */
+}
+
+/* gothic-a1-500 - latin_korean */
+@font-face {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-500.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-500.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-500.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-500.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-500.svg#GothicA1")
+      format("svg"); /* Legacy iOS */
+}
+
+/* gothic-a1-600 - latin_korean */
+@font-face {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-600.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-600.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-600.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-600.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-600.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-600.svg#GothicA1")
+      format("svg"); /* Legacy iOS */
+}
+
+/* gothic-a1-700 - latin_korean */
+@font-face {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-700.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-700.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-700.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-700.svg#GothicA1")
+      format("svg"); /* Legacy iOS */
+}
+
+/* gothic-a1-800 - latin_korean */
+@font-face {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-800.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-800.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-800.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-800.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-800.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-800.svg#GothicA1")
+      format("svg"); /* Legacy iOS */
+}
+
+/* gothic-a1-900 - latin_korean */
+@font-face {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-900.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-900.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-900.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-900.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-900.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../assets/fonts/gothic-a1/gothic-a1-v13-latin_korean-900.svg#GothicA1")
+      format("svg"); /* Legacy iOS */
+}

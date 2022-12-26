@@ -17,7 +17,7 @@ export const DefaultLayout = ({ children }: DefaultLayoutProps) => {
 
 const DefaultLayoutContainer = styled("div")`
   width: 100%;
-  max-width: ${({ theme }) => `${theme.breakpoints.md - 1}px`};
+  max-width: ${({ theme }) => `${theme.layoutStyle.breakpoints.md - 1}px`};
   padding: 0 24px;
   margin: 0 auto;
 
@@ -28,12 +28,14 @@ const DefaultLayoutContainer = styled("div")`
 
   box-sizing: border-box;
 
-  @media (max-width: ${({ theme }) => `${theme.breakpoints.xl - 1}px`}) {
-    padding: 0 2rem;
+  @media (max-width: ${({ theme }) =>
+      `${theme.layoutStyle.breakpoints.xl - 1}px`}) {
+    padding: ${({ theme }) => `${theme.layoutStyle.paddings.md}`};
   }
 
-  @media (max-width: ${({ theme }) => `${theme.breakpoints.md - 1}px`}) {
-    padding: 0 1rem;
+  @media (max-width: ${({ theme }) =>
+      `${theme.layoutStyle.breakpoints.md - 1}px`}) {
+    padding: ${({ theme }) => `${theme.layoutStyle.paddings.sm}`};
   }
 `;
 

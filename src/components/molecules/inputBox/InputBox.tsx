@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 import useRegisterRHF from "../../../hooks/useUserRegisterForm";
 import { FieldInfo } from "../../../models/form";
 import { fieldErrors } from "../../../utils/form/formErrorList";
@@ -47,14 +48,14 @@ const Wrap = styled.div`
   padding-top: 20px;
 
   &.active label {
-    color: ${({ theme }) => theme.colors.primary.focus} !important;
+    color: ${({ theme }) => theme.styleGuide.colors.primary.focus} !important;
   }
 `;
 
 const Label = styled.label`
-  color: ${({ theme }) => theme.colors.primary.light};
-  font-size: ${({ theme }) => theme.typography.label.fontSize};
-  font-weight: ${({ theme }) => theme.typography.label.fontWeight};
+  color: ${({ theme }) => theme.styleGuide.colors.primary.base};
+  font-size: ${({ theme }) => theme.fontStyle.typography.label.fontSize};
+  font-weight: ${({ theme }) => theme.fontStyle.typography.label.fontWeight};
 `;
 
 const Input = styled.input`
@@ -63,14 +64,15 @@ const Input = styled.input`
   border-bottom: 1px solid #ccc;
   border-radius: 3px;
 
-  color: ${({ theme }) => theme.colors.primary.normal};
-  font-size: ${({ theme }) => theme.typography.input.fontSize};
-  font-weight: ${({ theme }) => theme.typography.input.fontWeight};
+  color: ${({ theme }) => theme.styleGuide.colors.primary.normal};
+  font-size: ${({ theme }) => theme.fontStyle.typography.input.fontSize};
+  font-weight: ${({ theme }) => theme.fontStyle.typography.input.fontWeight};
 
   transition: all 0.2s ease-in-out;
 
   &:focus {
-    border-bottom: 1px solid ${({ theme }) => theme.colors.primary.focus};
+    border-bottom: 1px solid
+      ${({ theme }) => theme.styleGuide.colors.primary.focus};
   }
 `;
 
@@ -79,7 +81,7 @@ const Error = styled.div`
   text-align: right;
   min-height: 20px;
 
-  color: ${({ theme }) => theme.typography.error.color};
-  font-size: ${({ theme }) => theme.typography.error.fontSize};
-  font-weight: ${({ theme }) => theme.typography.error.fontWeight};
+  color: ${({ theme }) => theme.fontStyle.typography.error.color};
+  font-size: ${({ theme }) => theme.fontStyle.typography.error.fontSize};
+  font-weight: ${({ theme }) => theme.fontStyle.typography.error.fontWeight};
 `;
